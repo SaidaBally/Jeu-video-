@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,7 +12,8 @@ body{
     height: 67px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    padding-left: 150px;
 }
 
 .topElement{
@@ -25,6 +26,7 @@ body{
 
 .highlight{
     border: solid 3px #FCFFE3;
+    border-style: dotted;
 
 }
 
@@ -57,4 +59,91 @@ a:hover{
 .logo{
     max-width: 67px;
     margin-left: 150px;
+}
+
+.secHead > img{
+    max-width: 300px;
+}
+
+/**MAIN**/
+
+.scoreBoard{
+    margin: 30px auto;
+    border: solid 5px #FCEE3D;
+    width: 300px;
+    border-radius: 10px;
+    color: black;
+    font-size: 56px;
+    text-align: center;
+    padding: 40px 40px;
+    font-weight: bolder;
+    position: relative;
+}
+
+.element{
+    background: #FCEE3D;
+    color: black;
+    font-size: 25px;
+    padding: 10px 40px;
+}
+
+.computer{
+    position: absolute;
+    top: 40px;
+    left: -210px;
+}
+
+.user{
+    position: absolute;
+    top: 40px;
+    left: 380px;
+}
+
+.result{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.choicesElement{
+    margin: 50px 0;
+    text-align: center;
+}
+
+.choice > img{
+    max-height: 70px;
+}
+
+.choice{
+    padding: 50px 50px 50px 50px;
+    border: 8px solid #FCEE3D;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background: #FCFFE3;
+}
+
+.msg{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+/**FOOTER**/
+
+.footer{
+    background-color: #FCFFE3;
+    margin-top: 50px;
+    text-align: center;
+    height: 150px;
+}
+
+.footer > img{
+    max-width: 100px;
 }
