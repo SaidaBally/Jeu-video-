@@ -53,7 +53,7 @@ a:hover{
     padding: 20px;
     margin-right: 10rem;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 34px;
 }
 
 .logo{
@@ -61,11 +61,11 @@ a:hover{
     margin-left: 150px;
 }
 
-.secHead > img{
+.secHead > a > img{
     max-width: 300px;
 }
 
-/**MAIN**/
+/**MAIN GAME PAGE**/
 
 .scoreBoard{
     margin: 30px auto;
@@ -135,6 +135,55 @@ a:hover{
     margin-top: 30px;
 }
 
+/**MAIN INDEX**/
+
+.main_1{
+    height: 500px;
+}
+
+.titrePage{
+    padding: 100px 100px 100px 100px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    transition: all 1.5 ease;
+}
+
+.titrePage:hover{
+    font-size: 40px;
+}
+
+.trait{
+    align-content: center;
+    margin-left: 600px;
+    width: 300px;
+    height: 5px;
+    background-color: #FCEE3D;
+}
+
+.text{
+    margin-top: 100px;
+}
+
+.t{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.click{
+    margin-left: 700px;
+    padding: 10px;
+    background-color: black;
+    font-size: 30px;
+    border: solid 2px #FCFFE3;
+    border-radius: 10%;
+}
+
+.click:hover{
+    background-color: #FCEE3D;
+}
+
 /**FOOTER**/
 
 .footer{
@@ -145,5 +194,12 @@ a:hover{
 }
 
 .footer > img{
-    max-width: 100px;
+    max-width: 80px;
+    margin-top: 20px;
+}
+
+.footer > p{
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: bolder;
 }
