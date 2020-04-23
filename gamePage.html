@@ -12,7 +12,7 @@
             <div>
                 <div class="topHead">
                     <p class="topElement">Bienvenue</p>
-                    <p class="topElement highlight"><a href="gamePage.html">Jeux</a></p>
+                    <p class="topElement highlight"><a href="#">Jeux</a></p>
                     <p class="topElement clear"><a href="#">Login</a></p>
                     <p class="topElement clear"><a href="#">Register</a></p>
                 </div>
@@ -23,20 +23,26 @@
             </div>
         </header>
         <main>
-            <div class="main_1">
-                <div>
-                    <h2 class="titrePage">Bienvenue sur un site de détente et de bonne humeur</h2>
-                    <div class="trait"></div>
+            <div class="scoreBoard">
+                <div class="computer element">Ordinateur</div>
+                <div class="user element">Joueur</div>
+                <span class="computerScore">0</span>:<span class="userScore">0</span>   
+            </div>
+            <div class="result">
+                <p>papier est plus fort que pierre. Victoire!</p>
+            </div>
+            <div class="choicesElement">
+                <div class="choice pierre">
+                    <img src="images/pierre.png" alt="pierre">
                 </div>
-                <div class="text">
-                    <p class="t">Le jeu de notre site en bêta</p>
-                    <p class="t">En excusivité</p>
-                    <p class="t ">Pierre, feuille, ciseaux</p>
+                <div class="choice papier">
+                    <img src="images/papier.png" alt="papier">
                 </div>
-                <div class="button">
-                    <button class="click"><a href="gamePage.html">Jouer!</a></button>
+                <div class="choice ciseaux">
+                    <img src="images/ciseaux.png" alt="ciseaux">
                 </div>
             </div>
+            <p class="msg">A toi de jouer.</p>
         </main>
         <footer>
             <div class="footer">
@@ -44,5 +50,6 @@
                 <img src="images/Fichier 2.png" alt="lemon">
             </div>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
